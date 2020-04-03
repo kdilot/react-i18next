@@ -57,4 +57,4 @@ _React, Typescript, Hooks_
         )
     }
 
-    export default App
+    export default App;
