@@ -30,16 +30,18 @@ _React, Typescript, Hooks_
     }
 
 **Route or index**
-// You need to import i18n file at the top to translate every text
-import 'assets/lang/i18n';
+
+    // You need to import i18n file at the top to translate every text
+    import 'assets/lang/i18n';
 
 **Translate Button**
-import i18next from 'assets/lang/i18n';
-...
-const onLanguage = (lang: string) => {
-i18next.changeLanguage(lang); // lang is (en, ko, ...etc)
-localStorage.setItem('lang', lang); // When you used with localstorage
-};
+
+    import i18next from 'assets/lang/i18n';
+        ...
+        const onLanguage = (lang: string) => {
+        i18next.changeLanguage(lang); // lang is (en, ko, ...etc)
+        localStorage.setItem('lang', lang); // When you used with localstorage
+    };
 
 **Translate Page**
 
