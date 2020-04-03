@@ -18,7 +18,9 @@ const App: React.FC = () => {
             <h1>React i18next w/ LocalStorage</h1>
             <LanguageContainer>
                 <LanguageBox
-                    className={currentLang === 'ko' ? 'selected' : ''}
+                    className={
+                        currentLang === 'ko' || !currentLang ? 'selected' : ''
+                    }
                     onClick={() => onLanguage('ko')}>
                     한국어
                 </LanguageBox>
