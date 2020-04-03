@@ -6,15 +6,16 @@ _React, Typescript, Hooks_
 
 -   packages
 
-        		i18next
-        		react-i18next
+        i18next
+        react-i18next
 
 -   styles
 
-        		styled-components
+        styled-components
 
 -   github pages
-    gh-pages
+
+        gh-pages
 
 **Translate Files**
 
