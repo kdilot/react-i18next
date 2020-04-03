@@ -53,7 +53,7 @@ _React, Typescript, Hooks_
         const { t } = useTranslation();
 
     	return (
-            <div>{t('hello')}</div>
+             <div>{t('hello')}</div>
     	)
     }
 
