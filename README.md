@@ -52,9 +52,9 @@ _React, Typescript, Hooks_
     const App = () => {
         const { t } = useTranslation();
 
-    	return (
-             <div>{t('hello')}</div>
-    	)
+        return (
+                <div>{t('hello')}</div>
+        )
     }
 
     export default App
