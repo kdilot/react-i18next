@@ -50,10 +50,10 @@ _React, Typescript, Hooks_
     ...
 
     const App = () => {
-    	const { t } = useTranslation();
+        const { t } = useTranslation();
 
     	return (
-    		<div>{t('hello')}</div>
+            <div>{t('hello')}</div>
     	)
     }
 
