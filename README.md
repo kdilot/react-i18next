@@ -37,7 +37,9 @@ _React, Typescript, Hooks_
 **Translate Button**
 
     import i18next from 'assets/lang/i18n';
-        ...
+    
+    ...
+    
     const onLanguage = (lang: string) => {
         i18next.changeLanguage(lang); // lang is (en, ko, ...etc)
         localStorage.setItem('lang', lang); // When you used with localstorage
